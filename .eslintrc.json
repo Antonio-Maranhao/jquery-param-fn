@@ -4,6 +4,10 @@
         "ecmaVersion": 6
     },
     "globals": {
-        "module": true
+        "describe": true,
+        "expect": true,
+        "it": true,
+        "module": true,
+        "require": true
     }
 }
