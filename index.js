@@ -30,7 +30,7 @@ function queryParams(obj) {
   // Converts an object or array into an a list of query params
   const objectToListOfParams = function(obj, prefix) {
     return Object.keys(obj).map((key) => {
-      let value = obj[key];
+      var value = obj[key];
       if (prefix) {
         //Properties of inner objects are surrounded with []
         key = encodeURIComponent('[' + key + ']');

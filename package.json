@@ -1,6 +1,6 @@
 {
   "name": "jquery-param-fn",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Alternative to JQuery's param function.",
   "main": "index.js",
   "scripts": {
