@@ -1,0 +1,22 @@
+{
+  "name": "jquery-param-fn",
+  "version": "1.0.0",
+  "description": "Alternative to JQuery's param function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "keywords": [
+    "jquery",
+    "param",
+    "alternative"
+  ],
+  "author": "Antonio Maranhao",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "jest": "^21.2.1",
+    "jquery": "^3.2.1"
+  }
+}
