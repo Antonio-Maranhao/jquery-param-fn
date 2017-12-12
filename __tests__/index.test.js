@@ -54,7 +54,7 @@ describe('queryParams', () => {
     testQueryParams(testData);
   });
 
-  it.only('works with simple objects', () => {
+  it('works with simple objects', () => {
     const testData = [
       { a: 'abc', b: 'def' },
       { a: 123, b: 'abc', c: true, d: false },
