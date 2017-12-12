@@ -4,6 +4,7 @@
   "description": "Alternative to JQuery's param function.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint index.js",
     "test": "jest",
     "test-coverage": "jest --coverage"
   },
