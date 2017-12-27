@@ -20,7 +20,7 @@ function queryParams(obj) {
     //JQuery treats a string as an array of chars, so
     //we map it to an object where fields are the array
     //indexes
-    obj = obj.split('').reduce((acc, el, idx) => {
+    obj = obj.split('').reduce(function (acc, el, idx) {
       acc[idx] = el; return acc;
     }, {});
   } else if (typeof obj === 'number' || typeof obj === 'boolean') {
@@ -29,7 +29,7 @@ function queryParams(obj) {
 
   // Converts an object or array into an a list of query params
   const objectToListOfParams = function(obj, prefix) {
-    return Object.keys(obj).map((key) => {
+    return Object.keys(obj).map(function (key) {
       var value = obj[key];
       if (prefix) {
         //Properties of inner objects are surrounded with []
@@ -39,7 +39,7 @@ function queryParams(obj) {
         return prefix + key + '=';
       } else if (Array.isArray(value)) {
         const newPrefix = prefix + key;
-        const innerParams = value.map((innerElem, idx) => {
+        const innerParams = value.map(function (innerElem, idx) {
           const asObj = {};
           if (typeof innerElem === 'object' || Array.isArray(innerElem)) {
             asObj[idx] = innerElem;
