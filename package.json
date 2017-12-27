@@ -1,6 +1,6 @@
 {
   "name": "jquery-param-fn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Alternative to JQuery's param function.",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,13 @@
   ],
   "author": "Antonio Maranhao",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Antonio-Maranhao/jquery-param-fn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Antonio-Maranhao/jquery-param-fn/issues"
+  },
   "devDependencies": {
     "eslint": "^4.13.1",
     "jest": "^21.2.1",
