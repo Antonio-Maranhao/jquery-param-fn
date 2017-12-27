@@ -27,7 +27,7 @@ $ npm test
 ```
 to check test coverage:
 ```shell
-$ npm test-coverage
+$ npm run test-coverage
 ```
 
 ## License
